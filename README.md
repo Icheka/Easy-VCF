@@ -1,0 +1,2 @@
+# Easy-VCF
+The idea for Easy VCF came to me after I listened to a friend complain that he needed an easy-to-use application that would convert contact details in an Excel sheet to cross-platform vCards. Easy VCF runs on JavaScript in your browser, converts contact field entered in the on-display form to vCards, and allows you to download your generated vCard. It's operational, but I'm still going to make revisions, add features and redesign the UI. Oh, it's also free-to-download and open source.
