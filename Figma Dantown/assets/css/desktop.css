@@ -1,0 +1,281 @@
+@media screen and (min-width: 1001px){
+    .mobile {
+        display: none;
+    }
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    /*..
+    * bg-base and text-base are the page's default colors
+    ..*/
+    .bg-base {
+        background-color: #000070 !important;
+    }
+    .text-base {
+        color: #000070 !important;
+    }
+    .navbar-expand-md {
+        padding: 1em 3em;
+        padding-left: 0px;
+        background-color: white;
+    }
+    .navbar-user-icons {
+
+    }
+    .navbar-user-icons div {
+        margin-right: 0.8em !important;
+    }
+    .navbar-user-icons img {
+        width: 70%;
+        height: auto;
+    }
+    .navbar-user-icons #fullname {
+        color: #000070;
+        font-size: 95%;
+        font-weight: bold;
+    }
+    .navbar-expand-md .prepend {
+        color: white;
+    }
+    .navbar-expand-md input {
+        background-color: transparent;
+    }
+    .inline-block {
+        display: inline-block !important;
+    }
+    .small-print {
+        color: grey;
+        font-size: 85%;
+    }
+    .smaller-print {
+        color: grey;
+        font-size: 74%;
+    }
+    .border-0 {
+        border: none !important;
+    }
+    .navbar-brand {
+        background-color: #000070;
+    }
+    .navbar-brand {
+        padding: 0.4em;
+        padding-bottom: 0.7em;
+        text-align: center;
+        margin: 0px;
+        margin-left: -0.7em;
+    }
+    .navbar-brand > img {
+        width: 70%;
+        height: auto;
+    }
+    .text-lightgrey {
+        color: #efefef;
+    }
+    .font-10 {
+        font-size: 110%;
+    }
+    .bg-white {
+        background-color: white;
+    }
+    #sidebar {
+        background-color: darkgrey;
+        text-align: center;
+        width: 5%;
+    }
+    #sidebar > div {
+        margin-bottom: 2em;
+    }
+    #sidebar__home {
+        background-color: white;
+        border-radius: 7px;
+        //height: 6%;
+        width: 70%;
+        padding: 0.3em 0px;
+        margin: auto;
+    }
+    #table__transactions {
+        background-color: #00b9cd;
+        color: white;
+        font-size: 70%;
+        font-weight: normal;
+        border-radius: 8px;
+    }
+    .card {
+        padding: 3em 1em;
+        border-radius: 9px;
+        border: 0.5px thin #efefef;
+        box-shadow: 0px 0.7px 1px #efefef;
+        margin: 0.4em;
+        text-align: center;
+    }
+    @media screen and (max-width: 1400px){
+        .card {
+            margin: 0px;
+            width: 64%;
+            margin-right: 2em;
+            margin-left: 1em;
+            padding: 2em 1%;
+        }
+        .tab-switch__toggle {
+            width: 90%;
+            margin: auto;
+        }
+        .card .button-big {
+            margin: 0.6em auto 0.4em;
+            width: 40%;
+        }
+    }
+    .card .tag {
+        font-size: 90%;
+        color: rgba(0,0,112,0.5);
+        font-weight: bold;
+        margin: 1em;
+    }
+    .card .caption {
+        font-size: 75%;
+        color: white;
+    }
+    .card img {
+        width: 13%;
+        height: auto;
+    }
+    .card i {
+        color: rgba(0,0,112,0.5);
+    }
+    .card-half {
+        height: 48%;
+    }
+    .card-full {
+        margin: 0px;
+    }
+    .card .input-group {
+        width: 100%;
+    }
+    .card select {
+        border-radius: 20px;
+        border: none;
+        background-color: rgba(255,255,255,0.3);
+    }
+    .card .input-group {
+        margin-top: 0.3em;
+    }
+    .card input {
+        border: 0px;
+        border-bottom: 1px solid grey;
+        background-color: transparent;
+    }
+    .card button {
+        color: #00b9cd;
+        padding: 0px;
+        border-radius: 14px;
+    }
+    .tab-switch__toggle {
+        border-radius: 10px;
+        background-color: rgba(255,255,255,0.3);
+        border: 1px thin navy;
+        display: inline-block !important;
+        padding: 0px !important;
+    }
+    .tab-switch__tab {
+        border-radius: 10px;
+        background-color: transparent;
+        width: 49.9999%;
+        padding: 0.3em 0.4em;
+        margin: 0px !important;
+    }
+    .card__round--chart {
+
+    }
+    .card__round--chart .smaller-print {
+        color: #a6acbe;
+    }
+    .card__round--chart img {
+        position: absolute;
+        top: 3em;
+        left: 50%;
+        margin-left: -25%;
+        width: 45%;
+        height: auto;
+    }
+    .card__round--chart .center-piece__img {
+        width: 13%;
+        height: auto;
+        position: absolute;
+        top: 6.5em;
+        left: 67%;
+        //margin-left: -25%;
+    }
+    .pos__abs {
+        position: absolute;
+    }
+    .top__half {
+        top: 50%;
+    }
+    .list__no-style {
+        list-style: none;
+    }
+    .list__no-padding {
+        padding: 0px;
+    }
+    .list__no-padding > li {
+        margin-left: 0px;
+        text-align: left;
+    }
+    .underline {
+        text-decoration: underline;
+    }    
+    .block {
+        display: block;
+        width: 100%;
+    }
+    .td__no-padding td {
+        padding: 0px;
+        text-align: left;
+    }
+    #current-exchange-rates {
+        color: rgba(0,0,112,0.5);
+        font-size: 140%;
+        padding: 0px;
+        border-collapse: collapse;
+    }
+    #current-exchange-rates tr {
+        margin: 0px;
+    }
+    #current-exchange-rates * {
+        border: 0px;
+    } 
+    .card__long {
+        width: 100%;
+        clear: both;
+    }  
+    .sidebar__container__bottom {
+        position: absolute;
+        bottom: 0px;
+        left: 0.6%;
+        padding: 10px 0.6%;
+        border-top: 1px solid grey;
+    }
+    .dashboard__banner {
+        padding: 0px;
+        background: url(../img/dashboard-banner.png);
+        background-position: top left;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 12em;
+        margin-bottom: 1em;
+        color: white;
+        border: 2px solid navy;
+        border-radius: 12px;
+    }
+    .dashboard__banner > .content-box {
+        margin: 3em 2em;
+    }
+    .dashboard__banner .buttons-container {
+        margin-left: 20%;
+    }
+    .dashboard__banner .buttons-container button {
+        margin-right: 3em;
+        border-radius: 20px;
+        padding: 0.4em 3em;
+    }
+}

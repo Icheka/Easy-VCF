@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Ozuru, Icheka">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+    
+        <link rel="shortcut icon" href="../../static/plugins/img/favicon.png">
+    
+        <title>HOME | DANTOWN MULTISERVICES</title>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="assets/css/desktop.css">
+        <link rel="stylesheet" href="assets/css/mobile.css">
+
+    </head>
+    <body>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-md navbar-light bg-white">
+                <a class="navbar-brand mr-4 justify-content-center" href="#"><img src="assets/icons/logo.png" alt="brand-logo" /></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#stickyNav" aria-controls="stickyNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="stickyNav">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <form class="form-inline">
+                            <div class="input-group">
+                                <div class="prepend border-0 bg-light p-2">
+                                    <span><i class="fa fa-search fa-lg text-lightgrey"></i></span>
+                                </div>
+                                    <input class="form-control font-10 text-lightgrey pl-2 border-0" type="text" name="search" placeholder="Search..." />
+                            </div>
+                        </form>
+                    </li>
+                  </ul>
+                  <div class="row navbar-user-icons">
+                      <div>
+                            <span id="fullname">
+                                Simeon Taiwo
+                            </span> <br />
+                            <span class="small-print">
+                                Hi there
+                            </span>
+                        </div>
+                        <div class="border border-top-0 border-left-0 border-bottom-0">
+                            <img src="assets/icons/user-vector.png" alt="user-vector" />
+                        </div>
+                        <div>
+                            <i class="fa fa-bell fa-2x text-warning"></i>
+                        </div>
+                        <div>
+                            <i class="fa fa-sign-out fa-lg text-muted"></i>
+                        </div>
+                    </div>  
+                    <div class="mobile dropdown">
+                        <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          More &nbsp;<i class="fa fa-caret"></i>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <ul class="p-0">
+                                <li class="mt-5">
+                                    <i class="fa fa-home fa-2x text-white"></i>
+                                </li>
+                                <li>
+                                    <i class="fa fa-history fa-lg text-white"></i>
+                                </li>
+                                <li>
+                                    <i class="fa fa-th fa-lg text-white"></i>
+                                </li>
+                                <li>
+                                    <img src="assets/icons/line-chart-vector.png" alt="" />
+                                </li>
+                                <li>
+                                    <i class="fa fa-cog fa-lg text-white"></i>
+                                </li>
+                                <li>
+                                    <i class="fa fa-sign-out fa-lg text-white"></i>
+                                </li>
+                                <br /><br />
+                                <li>
+                                    <a class="text-white" href="#currency-exchange-table">View current exchange rates</a>
+                                </li>
+                            </ul>
+                        </div>
+                      </div>
+                </div>
+              </nav>
+
+              <div class="row">
+                  <!-- SIDEBAR -->
+                <div class="desktop pt-5" id="sidebar">
+                    <div id="sidebar__home">
+                        <i class="fa fa-home fa-2x text-navy"></i>
+                    </div>
+                    <div class="">
+                        <i class="fa fa-history fa-lg text-white"></i>
+                    </div>
+                    <div class="">
+                        <i class="fa fa-th fa-lg text-white"></i>
+                    </div>
+                    <div>
+                        <img src="assets/icons/line-chart-vector.png" alt="" />
+                    </div>
+                    <div class="sidebar__container__bottom">
+                        <div>
+                            <i class="fa fa-cog fa-lg text-white"></i>
+                        </div>
+                        <div>
+                            <i class="fa fa-sign-out fa-lg text-white"></i>
+                        </div>
+                    </div>
+                    <!-- END SIDEBAR -->
+                </div>
+                <div class="col-12 col-sm-11">
+                    <!-- WELCOME BANNER -->
+                    <div class="dashboard__banner p-0 bg-base">
+                        <div class="content-box">
+                            <h3 class="mb-3">Hi <span id="firstname">Simeon</span>,</h3>
+                            <div class="row">
+                                <div class="mb-1">
+                                    Welcome to DANTOWN DASHBOARD. <br />
+                                    Will you like us to show you around the dashboard?
+                                </div>
+                                <div class="buttons-container mb-1">
+                                    <button type="button" class="btn btn-warning text-white">YES! Please</button>
+                                    <button type="button" class="btn btn-light text-base">Maybe Later</button>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                    <!-- TRANSACTIONS TABLE -->
+                    <div>
+                        <table class="table" id="table__transactions">
+                            <thead>
+                                <tr class="border-0">
+                                    <th>Transactions</th>
+                                </tr>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Asset Type</th>
+                                    <th>Tran. Type</th>
+                                    <th>Asset Value</th>
+                                    <th>Cash Value</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+
+                                </tr>
+                            </tbody>
+                            <tbody></tbody>
+                        </table>
+                    </div>
+                    <!-- CARD WIDGETS -->
+                    <div class="row col-12 col-sm-0">
+                        <div class="col-12 col-md-3">
+                            <div class="col-md-12 card card-half">
+                                <div>
+                                    <i class="fa fa-shopping-cart fa-2x"></i>
+                                </div>
+                                <div class="tag">
+                                    Trade Assets
+                                </div>
+                            </div>
+                            <div class="border col-md-12 card card-half">
+                                <div>
+                                    <img src="assets/img/gas-pump.png" />
+                                </div>
+                                <div class="tag">
+                                    Recharge
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-3 mr-0">
+                            <div class="col-12 col-md-12 card card-half">
+                                <div>
+                                    <i class="fa fa-briefcase fa-2x"></i>
+                                </div>
+                                <div class="tag">
+                                    Trade Gift Cards
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-12 card card-half">
+                                <div>
+                                    <i class="fa fa-gift fa-2x"></i>
+                                </div>
+                                <div class="tag">
+                                    Send Gifts
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card card-full bg-base pt-3 pb-3">
+                            <div class="tab-switch__toggle bg-base row">
+                                <span class="caption tab-switch__tab">
+                                    Sell to DANTOWN
+                                </span>
+                                <span class="caption tab-switch__tab bg-info border-left-0" style="border-top-left-radius: 0px; border-bottom-left-radius: 0px;">
+                                    Buy from DANTOWN
+                                </span>
+                            </div>
+                            <form class="form-horizontal">
+                                <div class="col-10 offset-1 input-group mt-4">
+                                    <label class="caption">Asset Type</label>
+                                    <select name="" id="" disabled="" style="width: 100%;">
+                                    </select>
+                                </div>
+                                <div class="col-10 offset-1 input-group">
+                                    <label class="caption">Currency</label>
+                                    <select name="" id="" disabled="" style="width: 100%;">
+                                    </select>
+                                </div>
+                                <div class="col-10 offset-1 input-group">
+                                    <label class="caption">Type</label>
+                                    <select name="" id="" disabled="" style="width: 100%;">
+                                    </select>
+                                </div>
+                                <div class="col-10 offset-1 input-group">
+                                    <label class="caption">Amount</label>
+                                    <input type="text" disabled="">
+                                </div>
+                                <div class="col-10 offset-1 input-group">
+                                    <label class="caption">Wallet ID:</label>
+                                    <input type="text" disabled="">
+                                </div>
+                                <button class="btn btn-light btn-block mt-2 button-big">TRADE</button>
+                            </form>
+                        </div>
+                        <div class="desktop col-12 col-md-3 card">
+                            <div class="card__round--chart">
+                                <img src="assets/img/chart.png" alt="">
+                                <img src="assets/img/Ellipse 28.png" alt="" style="top: 4em;">
+                                <img class="center-piece__img" src="assets/img/attach_money.png" alt="">
+                            </div>
+                            <div class="pos__abs top__half mt-4">
+                                <ul class="list__no-style list__no-padding block">
+                                    <table class="td__no-padding">
+                                        <tr>
+                                            <td>
+                                                <li class="block"><i class="fa fa-circle" style="color: #616774;"></i><span class="ml-1 smaller-print underline">Waiting Transactions</span>
+                                            </td>
+                                            <td>
+                                                &nbsp;
+                                            </td>
+                                            <td> 
+                                                 <span class="smaller-print" style="float: right;"><strong>20</strong>(32%)</span></li>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <li class="block"><i class="fa fa-circle" style="color: #FFC870;"></i><span class="ml-1 smaller-print underline">Declined Transactions</span> 
+                                            </td>
+                                            <td>
+                                                &nbsp;
+                                            </td>
+                                            <td>
+                                                 <span class="smaller-print" style="float: right;"><strong>20</strong>(32%)</span></li>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <li class="block"><i class="fa fa-circle" style="color: #F7464A;"></i><span class="ml-1 smaller-print underline">Failed Transactions</span> 
+                                            </td>
+                                            <td>
+                                                &nbsp;
+                                            </td>
+                                            <td>
+                                                <span class="smaller-print" style="float: right;"><strong>15</strong>(24%)</span></li>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <li class="block"><i class="fa fa-circle" style="color: #5AD3D1;"></i><span class="ml-1 smaller-print underline">Successful Transactions</span> 
+                                            </td>
+                                            <td>
+                                                &nbsp;
+                                            </td>
+                                            <td>
+                                                 <span class="smaller-print" style="float: right;"><strong>7</strong>(12%)</span></li>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <li class="block"><span class="ml-1 smaller-print underline">Total Completed Transactions</span> 
+                                            </td>
+                                            <td>
+                                                &nbsp;
+                                            </td>
+                                            <td>
+                                                 <button type="button" class="btn btn-default bg-base text-white small-print pl-3 pr-3">5000</button>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="currency-exchange-table" class="col-12 col-md-12 mt-4 card card__long p-0">
+                            <table class="table table-condensed table-responsive" id="current-exchange-rates">
+                                <tr>
+                                    <td>
+                                        <span>
+                                            LTC
+                                        </span>
+                                        <span class="text-lightgrey">
+                                            NGN
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span>
+                                            ETH
+                                        </span>
+                                        <span class="text-lightgrey">
+                                            NGN
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span>
+                                            XRP
+                                        </span>
+                                        <span class="text-lightgrey">
+                                            NGN
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span>
+                                            USDT
+                                        </span>
+                                        <span class="text-lightgrey">
+                                            NGN
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span>
+                                            BTC
+                                        </span>
+                                        <span class="text-lightgrey">
+                                            NGN
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span>
+                                            DASH
+                                        </span>
+                                        <span class="text-lightgrey">
+                                            NGN
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        15,688.91NGN
+                                    </td>
+                                    <td>
+                                        55,038.47NGN
+                                    </td>
+                                    <td>
+                                        66.03NGN
+                                    </td>
+                                    <td>
+                                        416.97NGN
+                                    </td>
+                                    <td>
+                                        2,593,012.00NGN
+                                    </td>
+                                    <td>
+                                        27,376.91NGN
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- END MAIN AREA-->
+                </div>
+              </div>
+              <!-- END CONTAINER-FLUID-->
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    </body>
+</html>
