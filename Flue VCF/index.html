@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0" />
+
+        <title>Flue: VCF Card Creator </title>
+
+        <link rel="stylesheet" href="static/assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="static/assets/css/styles.css" />
+    </head>
+    <body>
+        <header class="header text-center pt-3">
+            <h3 class="text-underline">FLUE: VCF CREATOR </h3>
+            <i><em>by the creator of the Flue Series</em></i>
+        </header>
+        <div class="container">
+            <form name="form_main">
+                <div class="row mt-5">
+                    <label class="large">TITLE:&nbsp;</label> <br /><br />
+                    <select id="title">
+                        <option value="" default="">none</option>
+                        <option value="Mr">Mr</option>
+                        <option value="Mrs">Ms</option>
+                        <option value="Mrs">Mrs</option>
+                        <option value="Sir">Sir</option>
+                        <option value="Madam">Madam</option>
+                        <option value="Dr">Dr</option>
+                        <option value="Arch.">Arch.</option>
+                        <option value="Barr.">Barr.</option>
+                        <option value="Engr.">Engr.</option>
+                        <option value="Pst.">Pst.</option>
+                        <option value="Imam">Imam</option>
+                        <option value=" Rt. Hon.">Rt. Hon.</option>
+                        <option value="Pres.">Pres.</option>
+                        <option value="V. Pres.">V. Pres.</option>
+                        <option value="Prof.">Prof.</option>
+                        <option value="Aunty">Aunty</option>
+                        <option value="Uncle">Uncle</option>
+                        <option value="Bro.">Bro.</option>
+                        <option value="Sis.">Sis.</option>
+                        <option value="Dad">Dad</option>
+                        <option value="Mum">Mum</option>
+                        
+                    </select>
+
+                    <div class="input-group col-12 col-sm-6 col-md-4">
+                        <input type="text" id="firstname" placeholder="FIRST NAME" />
+                    </div>
+                    <div class="input-group col-12 col-sm-6 col-md-4">
+                        <input type="text" id="middlename" placeholder="MIDDLE NAME" />
+                    </div>
+                    <div class="input-group col-12 col-sm-6 col-md-4">
+                        <input type="text" id="lastname" placeholder="LAST NAME" />
+                    </div>
+                    <div class="input-group col-12 col-sm-6 col-md-4">
+                        <input type="text" id="nickname" placeholder="NICK NAME" />
+                    </div>
+                    <div class="input-group col-12 col-sm-6 col-md-4">
+                        <input type="text" id="address" placeholder="ADDRESS" />
+                    </div>
+                    <div class="input-group col-12 col-sm-6 col-md-4">
+                        <label>SEX</label> <br /><br />
+                        <select class="large" id="sex">
+                            <option value="none">none</option>
+                            <option value="male">MALE</option>
+                            <option value="female">FEMALE</option>
+                        </select>
+                    </div>
+                    <div class="input-group col-12 col-sm-6 col-md-4">
+                        <input type="email" id="email1" placeholder="EMAIL 1" />
+                    </div>
+                    <div class="input-group col-12 col-sm-6 col-md-4">
+                        <input type="email" id="email2" placeholder="EMAIL 2" />
+                    </div>
+                    <div class="input-group col-12 col-sm-6 col-md-4">
+                        <input type="tel" id="telephone1" placeholder="MOBILE 1" />
+                    </div>
+                    <div class="input-group col-12 col-sm-6 col-md-4">
+                        <input type="tel" id="telephone2" placeholder="MOBILE 2" />
+                    </div>
+                    <div class="input-group col-12 col-sm-6 col-md-4">
+                        <input type="text" id="school" placeholder="SCHOOL" />
+                    </div>
+                    <div class="input-group col-12 col-sm-6 col-md-4">
+                        <input type="text" id="school_class" placeholder="CLASS/YEAR" />
+                    </div>
+                    <div class="input-group col-12 col-sm-6 col-md-4">
+                        <input type="text" id="organisation" placeholder="ORGANISATION" />
+                    </div>
+                    <div class="input-group col-12 col-sm-6 col-md-4">
+                        <input type="text" id="department" placeholder="DEPARTMENT" />
+                    </div>
+                    <div class="input-group col-12 col-sm-6 col-md-4">
+                        <input type="text" id="dob" placeholder="DD-MM-YYYY" min-width="10" max-width="10" />
+                    </div>
+                    <div class="input-group col-12 col-sm-6 col-md-4">
+                        <input type="text" id="next_of_kin" placeholder="NEXT OF KIN" />
+                    </div>
+                    <div class="input-group col-12 col-sm-6 col-md-4">
+                        <input type="text" id="parent" placeholder="PARENT" />
+                    </div>
+                    <div class="input-group col-12 col-sm-6 col-md-4">
+                        <input type="text" id="parentno" placeholder="PARENT TELEPHONE" />
+                    </div>
+                    <div class="input-group col-12 col-sm-6 col-md-4">
+                        <input type="text" id="parentaddr" placeholder="PARENT ADDRESS" />
+                    </div>
+                    <div class="input-group col-12 col-sm-6 col-md-4">
+                        <input type="text" id="username" placeholder="@USERNAME" />
+                    </div>
+                    <div class="input-group col-12 col-sm-6 col-md-4">
+                        <input type="text" id="state" placeholder="STATE" />
+                    </div>
+                    <div class="input-group col-12 col-sm-6 col-md-4">
+                        <input type="text" id="lga" placeholder="LOCAL GOVERNMENT AREA" />
+                    </div>
+
+                </div>
+                <div class="row align-items-center mt-2 mt-sm-5 border">
+                    <div class="mt-3 col-4 offset-2 col-sm-6 offset-sm-0 offset-md-0">
+                        <a id="btn-download" download="" class="btn btn-success btn-block color-white">Download</a>
+                    </div>
+                    <div class="mt-3 col-4 col-sm-6 offset-md-0">
+                        <button type="button" id="btn-go" class="btn btn-success btn-block">Go!</button>
+                    </div>
+                    <div class="mt-3 col-8 offset-2 col-sm-12 offset-sm-0">
+                        <button id="btn-upload" class="btn btn-primary btn-block">Upload data file</button>
+                    </div>
+                    <div class="mt-3 col-8 col-sm-12 offset-2 offset-sm-0">
+                        <button type="reset" id="btn-reset" class="btn btn-secondary btn-block">Clear all fields</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <script src="static/assets/js/app.js"></script>
+    </body>
+</html>
