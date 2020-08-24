@@ -1,0 +1,49 @@
+@media screen and (min-width: 0px) {
+    * {
+        color: rgb(7, 20, 54);
+        font-size: 90%;
+    }
+    body {
+        background: lightblue;
+    }
+    .bg-base {
+        background-color: rgb(14, 126, 170);;
+    }
+    .text-base {
+        color: rgb(7, 20, 54) !important;
+    }
+    .input-group input, .input-group select {
+        width: 100%;
+        padding: 1.1em 1em;
+        border: 1px solid rgb(14, 126, 170);
+        border-radius: 4px;
+        margin: 1em 0;
+    }
+    .text-underline {
+        text-decoration: underline navy dashed;
+    }
+    select {
+        padding: 10px;
+        height: 4em;
+    }
+    .large {
+        font-size: 110%;
+    }
+    .color-white {
+        color: white !important;
+    }
+    .navbar-top {
+        position: sticky;
+        top: 0px;
+        z-index: 100;
+    }
+    @media screen and (min-width: 769px){
+        text-align: center;
+    }
+    .full--screen__width {
+        width: 100%;
+    }
+    #btn-download:hover {
+        color: blue;
+    }
+}
